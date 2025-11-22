@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+
+
+
+#section{
+    width: 100%;
+    height: auto;
+}
+.slideWrap{
+    width: 100%;
+    height: 980px;
+    overflow: hidden;
+    position: relative;
+}
+.slide{
+    width: 100%;
+    height: 7840px;
+}
+.slide li{
+    width: 100%;
+    height: 980px;
+}
+.rolling{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.rolling li a{
+    display: block;
+    text-indent: -9999px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-bottom: 20px;
+}
+.rolling li.on a{
+    background-color: #fff;
+}
+
+
+
+
+.content{
+    width: 100%;
+    height: auto;
+    padding: 0 335px;
+}
+.cont1{
+    width: 100%;
+    height: 973px;
+    padding: 81px 0 96px;
+}
+.cont1>dl>dt{
+    color: #ababab;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 2;
+}
+.cont1>dl>dd{
+    color: #ababab;
+    font-size: 14px;
+    margin: 20px 0 92px;
+}
+.cont1 ul li{
+    float: left;
+    margin-right: 30px;
+}
+.cont1 ul li:last-child{
+    margin-right: 0;
+}
+.cont1 ul li a{
+    display: block;
+    width: 390px;
+    height: 640px
+}
+.cont1 ul li a:hover img{
+    transform: scale(1.1);
+}
+.cont1 ul li .imgB{
+    width: 390px;
+    height: 500px;
+    overflow: hidden;
+}
+.cont1 ul li img{
+    width: 395px;
+    height: 500px;
+    object-fit: cover;
+    transition: all .5s;
+}
+.cont1 li dt{
+    font-size: 18px;
+    font-weight: 600;
+    color: #5d5d5d;
+    margin: 33px 0 30px;
+}
+.cont1 li dd{
+    color: #737373;
+    font-size: 12px;
+}
+
+
+
+.cont2{
+    width: 100%;
+    height: 428px;
+    border-top: 1px solid #666;
+}
+.contTxt{
+    float: left;
+    margin: 22px 0;
+    font-size: 16px;
+    color: #3d3d3d;
+}
+.cont2 ul{
+    float: left;
+}
+.cont2 ul li{
+    float: left;
+    margin-right: 30px;
+    width: 602px;
+    height: 343px;
+    overflow: hidden;
+}
+.cont2 li:last-child{
+    margin-right: 0;
+}
+.cont2 li a{
+    display: block;
+    width: 602px;
+    height: 686px;
+}
+.cont2 li a img{
+    width: 602px;
+    height: 343px;
+}
+
+
+
+
+.cont3{
+    width: 100%;
+    /* height: 1036px; */
+    padding: 15px 0;
+}
+.cont3 .cont3_in{
+    width: 100%;
+    height: auto;
+    height: auto;
+    overflow: hidden;
+    margin: 36px 0 15px;
+}
+.cont3 ul li{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 11px;
+}
+.cont3 ul li:nth-child(4n){
+    margin-right: 0;
+}
+.cont3 ul li a{
+    display: block;
+    width: 301px;
+    height: 301px;
+}
+.cont3 ul:nth-child(2),
+.cont3 ul:nth-child(3){
+    display: none;
+}
+.cont3 .btn{
+    display: inline-block;
+    width: 75px;
+    height: 37px;
+    line-height: 37px;
+    font-weight: bold;
+    color: #3d3d3d;
+    border: 1px solid #333;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
